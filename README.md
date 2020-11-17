@@ -16,7 +16,7 @@ $ npm run app-install
 
 ## Start the aplication:
 
-To run the application locally run: 
+To start the application locally run: 
 
 ```bash
 $ npm run dev
