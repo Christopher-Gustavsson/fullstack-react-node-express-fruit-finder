@@ -15,3 +15,9 @@ Once that is completed run:
 ```bash
 $ npm run client-install # Install react dependencies
 ```
+
+To run the application locally run: 
+
+```bash
+$ npm run dev
+```
