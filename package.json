@@ -1,0 +1,24 @@
+{
+  "name": "fullstack_react_node",
+  "version": "1.0.0",
+  "description": "Fullstack application using React and Node.js/Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client-install": "cd client && npm install",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Chrisotpher Gustavsson",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
